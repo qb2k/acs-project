@@ -242,14 +242,7 @@ const LoginPage = ({ role }) => {
                             </Button>
                             {role === "Admin" &&
                                 <Grid container>
-                                    <Grid>
-                                        Don't have an account?
-                                    </Grid>
-                                    <Grid item sx={{ ml: 2 }}>
-                                        <StyledLink to="/Adminregister">
-                                            Sign up
-                                        </StyledLink>
-                                    </Grid>
+                                    
                                 </Grid>
                             }
                         </Box>

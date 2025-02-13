@@ -40,8 +40,8 @@ const Homepage = () => {
                                 </Button>
                             </StyledLink>
                             <StyledText>
-                                Don't have an account?{' '}
-                                <Link to="/Adminregister" style={{color:"#550080"}}>
+                                Have an account?{' '}
+                                <Link to="/Adminlogin" style={{color:"#550080"}}>
                                     Sign up
                                 </Link>
                             </StyledText>
